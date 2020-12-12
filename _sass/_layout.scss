@@ -148,6 +148,7 @@
 .page-content {
   padding: $spacing-unit 0;
   strong { font-weight: bold; }
+
 }
 
 .page-heading {
@@ -172,11 +173,10 @@
 .post-header {
   margin-bottom: $spacing-unit;
   time{
-    margin-left: 0px;
-    font-style: normal;
+      margin-left: 0px;
+      font-style: normal;
 
   }
-
 }
 
 .post-title {
@@ -213,9 +213,10 @@
 }
 
 
+
 .post-content {
   p { padding:$spacing-unit/5 0; } 
-  //  margin-bottom: $spacing-unit;
+  //margin-bottom: $spacing-unit;
   h1 { 
     font-size: 38px;
     line-height:1em;
@@ -227,7 +228,6 @@
   h2 {
     font-size: 32px;
     line-height:1em;
-
     @include media-query($on-laptop) {
       font-size: 28px;
     }
@@ -297,8 +297,9 @@ time{
  * Aboutme photo Style
  */
 
+
 .about{
-  img {
+  img{
     height: 128px;
     width: 128px;
     border-radius:50%;
@@ -306,7 +307,6 @@ time{
     display: block;
   }
 }
-
 
 .img-about{
   height: 128px;
@@ -332,5 +332,4 @@ q:after {
   color: #DD1144;
   font-weight:bold;
 }
-
 
